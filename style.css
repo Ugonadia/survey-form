@@ -1,0 +1,113 @@
+:root{
+  --color-white:#f3f3f3;
+}
+
+Form{
+  background:var(--color-white);
+  padding:2.5rem 0.625rem;
+  border-radius:0.25rem;
+}
+.container{
+  width:100%;
+  margin:3.125rem auto 0 auto;
+}
+body{
+  font-family:Sans-serif;
+  font-size:1.5rem;
+  font-weight:400;
+  line-height:1.4;
+  Margin:0;
+  color:#a7206a;
+}
+h1{
+  font-weight:400;
+  line-height:1.2;
+}
+p{
+  font-size:1.25rem;}
+
+.description{
+  font-style:italic;
+  font-weight:200;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+  font-size:20px;
+  color:#f3f3f3;
+  
+}
+h1,p{
+  margin-top:0;
+  margin-bottom:0.5rem;
+}
+.text-center{
+  text-align:center;
+  color:#f3f3f3;
+  
+}
+.header{
+  padding:0 0.625rem;
+  margin-bottom: 1.875rem;
+}
+
+label {
+  display:flex;
+  align-items:center;
+  font-size:17px;
+  margin-botttom:1.5em;
+}
+.clue{
+  font-size:0.9rem;
+  margin-left:0.25rem;
+}
+input,
+button,
+select,
+textarea{
+ margin:0;
+ font-family:inherit;
+  font-size:inherit;
+  line-height:inherit;
+}
+.form-group{
+  margin:0 auto 1.25rem auto;
+  padding:0.25rem;
+}
+.form-control{
+  display:block;
+  width:100%;
+  height:2.3rem;
+  padding: 0.3rem 0.7rem;
+  background-clip:padding-box;
+  background-color:#fff;
+  border:1px solid #ced4da;
+  bordr-radius:0.2rem;
+}
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background:#7f0042;
+  color:#f3f3f3;
+  border-radius: 2px;
+  cursor: pointer;
+}
+ .input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+*::before {border-sizing:border-box;}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: #7f0042;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
